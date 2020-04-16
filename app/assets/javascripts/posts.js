@@ -8,6 +8,9 @@ $(function(){
       type: "POST",
       data: formData,
       dataType: 'JSON',
+      processData: false,
+      contentType: false
+
     })
   })
 })
