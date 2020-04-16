@@ -7,6 +7,7 @@ $(function(){
       url: url,
       type: "POST",
       data: formData,
+      dataType: 'JSON',
     })
   })
 })
