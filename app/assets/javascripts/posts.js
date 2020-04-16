@@ -1,4 +1,12 @@
 $(function(){
+
+  function buildPost(post){
+    var html = `<div class="content">
+                  ${post.hogehoge}
+                </div>`;
+    return html;
+  }
+
   $('#new_post').on('submit',function(e){
     e.preventDefault();
     var formData = new FormData(this);
