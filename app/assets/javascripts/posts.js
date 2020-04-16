@@ -14,6 +14,8 @@ $(function(){
     })
     .done(function(post){
     })
+    .fail(function(){
+
     })
   })
 })
