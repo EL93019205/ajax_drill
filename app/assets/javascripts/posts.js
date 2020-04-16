@@ -6,6 +6,7 @@ $(function(){
     $.ajax({
       url: url,
       type: "POST",
+      data: formData,
     })
   })
 })
