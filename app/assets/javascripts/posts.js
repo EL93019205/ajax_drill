@@ -22,6 +22,7 @@ $(function(){
     })
     .done(function(post){
       var html = buildPost(post);
+      $('.contents').append(html);
     })
     .fail(function(){
 
