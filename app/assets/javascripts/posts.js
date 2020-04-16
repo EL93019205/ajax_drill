@@ -5,6 +5,7 @@ $(function(){
     var url = $(this).attr('action');
     $.ajax({
       url: url,
+      type: "POST",
     })
   })
 })
