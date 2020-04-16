@@ -24,6 +24,7 @@ $(function(){
       var html = buildPost(post);
       $('.contents').append(html);
       $('#post_text').val('');
+      $('.form_submit').prop('disabled',false);
     })
     .fail(function(){
 
