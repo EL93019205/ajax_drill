@@ -27,7 +27,7 @@ $(function(){
       $('.form_submit').prop('disabled',false);
     })
     .fail(function(){
-
+      alert('error');
     })
   })
 })
