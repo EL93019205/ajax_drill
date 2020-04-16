@@ -23,6 +23,7 @@ $(function(){
     .done(function(post){
       var html = buildPost(post);
       $('.contents').append(html);
+      $('#post_text').val('');
     })
     .fail(function(){
 
