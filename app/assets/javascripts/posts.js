@@ -12,5 +12,8 @@ $(function(){
       contentType: false
 
     })
+    .done(function(post){
+    })
+    })
   })
 })
